@@ -15,9 +15,22 @@ git clone https://github.com/InventivetalentDev/ocrwatch2.git
 cd ocrwatch2
 ```
 ```
+copy config.example.json config.json
 npm install
 npm run start
 ```
 
+### windows 11
+```
+update options
+System > Display > Graphics
+add an app
+select desktop app
+click browse
+add the electron binary
+add C:\projects\ocrwatch2\node_modules\electron\dist
+click options on new program
+select high performance
+```
 
 ![](https://yeleha.co/8uD3zIdt)
